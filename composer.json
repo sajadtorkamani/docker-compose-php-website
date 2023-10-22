@@ -1,0 +1,17 @@
+{
+  "name": "sajad/docker-compose-php-website",
+  "autoload": {
+    "psr-4": {
+      "Sajad\\DockerComposePhpWebsite\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sajad Torkamani",
+      "email": "sajadtorkamani1@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^6.3"
+  }
+}

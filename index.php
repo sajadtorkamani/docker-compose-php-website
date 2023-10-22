@@ -1,5 +1,7 @@
 <?php
+/** @var PDO $pdo */
 
+require_once './vendor/autoload.php';
 require_once './lib/database.php';
 
 $sql = 'SELECT * from messages';
@@ -14,7 +16,7 @@ $stmt = $pdo->query($sql);
 <p>I've successfully connected to a MySQL database that runs in a separate
   Docker container. How cool?</p>
 
-<img src="./img.png" alt="Docker" style="max-width: 100%; width: 400px">
+<img src="img.png" alt="Docker" style="max-width: 100%; width: 400px">
 
 <p>
   You persist data to MySQL using volumes and the data will be there even when
