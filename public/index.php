@@ -38,7 +38,7 @@ $stmt = $pdo->query($sql);
     <?php endwhile; ?>
 </section>
 
-<form action="../http/process-message.php" method="post">
+<form action="process-message.php" method="post">
   <input name="message" placeholder="Type a message" value="Hi" />
   <button>Add message</button>
 </form>
